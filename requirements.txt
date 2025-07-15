@@ -1,0 +1,7 @@
+imgkit
+openai
+pdfkit
+pillow
+praw
+python-dotenv
+tqdm
