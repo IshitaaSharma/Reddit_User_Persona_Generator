@@ -11,7 +11,7 @@ def build_prompt(posts, comments):
     """
     Builds a prompt for GPT using the user's Reddit data.
     """
-    prompt = "Create a detailed user persona based on the following Reddit activity.\nInclude interests, tone, personality, and possible demographics. Each point should cite the source.\n\n"
+    prompt = "Create a detailed user persona based on the following Reddit activity.\nInclude possible demographics, personality, motivations, behaviour & habits, goals & needs and frustration. Each point should cite the source.\n\n"
 
     prompt += "### Posts:\n"
     for post in posts[:10]:
