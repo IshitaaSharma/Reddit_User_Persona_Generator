@@ -9,9 +9,10 @@ This script takes a Reddit user's profile URL and:
 - Python
 - PRAW (Reddit API)
 - Pillow
-- OpenAI API (or mocked)
+- OpenAI API 
 - imgkit 
 
 # How to Run
 1. Install requirements: `pip install -r requirements.txt`
-2. Run: `python main.py`
+2. Edit .env file according to the instructions provided in the file.
+3. Run: `python main.py`
