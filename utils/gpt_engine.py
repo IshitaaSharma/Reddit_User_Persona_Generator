@@ -23,7 +23,7 @@ def build_prompt(posts, comments):
 
     return prompt
 
-'''def get_gpt_response(prompt):
+def get_gpt_response(prompt):
     import traceback
     try:
         response = openai.ChatCompletion.create(
@@ -40,25 +40,3 @@ def build_prompt(posts, comments):
         print("❌ OpenAI API Error:", e)
         traceback.print_exc()
         return "Failed to generate persona."
-        '''
-def get_gpt_response(prompt):
-    print("⚠️ GPT call skipped (mocked due to quota limits)")
-    return """
-👤 User Persona for Redditor `kojied`
-
-- Interests:
-  Music, nightlife, dancing, bar culture  
-  _(Source: Post titled "I feel violated by intern season")_
-
-- Tone: 
-  Casual, humorous, slightly annoyed  
-  _(Source: Writing style and word choices in post)_
-
-- Personality Traits: 
-  Observant, prefers mature social settings  
-  _(Source: Comparison between college party vibe and preferred atmosphere)_
-
-- Demographics: 
-  Possibly mid-to-late 20s, lives in an urban area, frequents local bars  
-  _(Source: Frequenting neighborhood bars, mentions about college-age crowd)_
-"""
